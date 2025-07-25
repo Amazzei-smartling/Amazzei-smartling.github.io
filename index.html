@@ -1,10 +1,27 @@
-<p>Hello World!</p>
-<p id="dcs">Old label to be replaced with JS one at runtime</p>
-<p id="jsoncontent">JSON content: </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>    
+  </head>
+  <body>
+    <p>Hello World!</p>
+    <p id="dcs">Old label to be replaced with JS one at runtime</p>
+    
+    <p id="jsoncontent">JSON content: </p>
+    
+    <p>Check below string sharing between projects :</p>
+    
+    <P>Crafting unique<br /> digital experiences<br /> that WOW your<br /> audience</P>
 
-<p>Check below string sharing between projects :</p>
-<P>Crafting unique<br /> digital experiences<br /> that WOW your<br /> audience</P>
+    <script>
+        document.getElementById("dcs").innerHTML="new string to be captured by DCS"
+        const jsoncontent = {
+            key: "JSON content"
+        }
+    </script>
+  </body>
+</html>
 
-<script>
-document.getElementById("dcs").innerHTML="new"
-</script>
