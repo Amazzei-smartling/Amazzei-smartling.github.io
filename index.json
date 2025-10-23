@@ -1,0 +1,21 @@
+{
+    "chart": {
+        "type": "pie",
+        "zoomType": "",
+        "height": 300
+    },
+    
+    "series": [
+        {
+            "type": null,
+            "name": "u003cstrongu003ePointsu003c/strongu003e: 200",
+            "data": [
+                {
+                    "name": "u003cstrongu003eRewards Hub Orderu003c/strongu003e: 200",
+                    "y": 200,
+                    "url": ""
+                }
+            ]
+        }
+    ]   
+}
