@@ -6,12 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p></p>
+    <p>replace</p>
 </body>
 <script>
     
     var b = {
-        label: "function(){ console.log(/*<sl:translate><first-string/>*/\"Embedded text to translate\")}"
+        label1: "function(){ console.log(\"Embedded text to translate ... and the rest of the string\)}",
+        labeltranslate: "function(){ console.log(" + /*<sl:translate><first-string/>*/ + "Embedded text to translate" + "...and the rest of the string\" )}"
     }
     
 </script>
