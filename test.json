@@ -1,5 +1,25 @@
 {
-    "key1": "Hello",
-    "key2": "Good morning",
-    "key3": "Good evening"
+    "status": 200,
+    "messages": "The request was successful",
+    "users": [
+        {
+         "firstName": "John",
+        "role": "Editor",
+        "admin": false,
+        "manager": {
+            "role": "Senior Editor"
+        }
+        },
+        {
+        "firstName": "Rob",
+        "role": "Translator",
+        "admin": false,
+        "manager": {
+            "role": "Translation Lead"
+        }
+        }
+    ],
+    "string1": "Here's some content for John to translate.",
+    "string2": "<div>Smartling automatically recognizes HTML in a JSON string.</div>",
+    "string3": "This is an additional string from your site."
 }
