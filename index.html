@@ -9,17 +9,16 @@
     <p> Hello World! </p>>
 </body>
 <script>    
-    sl_tr_json_start = {};
-    sl_tr_json_end = {};
+    function sl_tr_json_start(){}
+    function sl_tr_json_end(){}
 
     function func(){
-        sl_tr_json_start();
-        
+        sl_tr_json_start();        
         return {
             "sl_translate": "sl_all",
-            "sl_variant": "key1: variant1, key2: variant2",
-            "key1": "red",
-            "key2": "blue"            
+            "sl_variant": "key1: variantYellow, key2: variantBlack",
+            "key1": "yellow",
+            "key2": "black"            
         }
         sl_tr_json_end();
     }    
