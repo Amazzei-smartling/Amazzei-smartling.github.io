@@ -1,0 +1,1 @@
+function stringVariants(e){/*! <sl:translate_json> */return({"sl_translate":"sl_all","sl_variant":"get-started-colloquial:get-started-colloquial,start-a-free-trial-colloquial:start-a-free-trial-colloquial","get-started-colloquial":"Get started","start-a-free-trial-colloquial":"\n                  Start a Free Trial\n                "})[e];/*! </sl:translate_json> */}
