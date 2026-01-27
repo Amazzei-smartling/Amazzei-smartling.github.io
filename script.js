@@ -1,14 +1,13 @@
-function sl_translate() {}
-sl_tr_json_start = sl_translate;
-sl_tr_json_end = sl_translate;
 
 function testFunc(){
-    sl_tr_json_start();
+    
     return {
+        /* <sl:translate_generic_json> */
         "sl_translate": "sl_all",
-        "sl_variant": "key1: variantForMagenta, key2: variantForBrown",
-        "key1": "magenta",
-        "key2": "brown"            
+        "sl_variant": "key1: variantForDog, key2: variantForCat",
+        key1: "dog",
+        "key2": "cat"
+        /* </sl:translate_generic_json> */
     }
-    sl_tr_json_end();
+
 }    
