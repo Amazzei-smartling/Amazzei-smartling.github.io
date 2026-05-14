@@ -22,5 +22,6 @@
     "string1": "Here's some content for John to translate.",
     "string2": "<div>Smartling automatically recognizes HTML in a JSON string.</div>",
     "string3": "This is an additional string from your site.",
-    "string4": "That's all \"Folks\""
+    "string4": "That's all \"Folks\"",
+    "string5": "<a href=\"/en_au/legal/redacted-updates\">Learn more about redacted Updates</a>.<br /><br /> By checking the box to &quot;Get Updates&quot;, "
 }
