@@ -23,5 +23,6 @@
     "string2": "<div>Smartling automatically recognizes HTML in a JSON string.</div>",
     "string3": "This is an additional string from your site.",
     "string4": "That's all \"Folks\"",
-    "string5": "<a href=\"/en_au/legal/red-updates\">Learn more about red Updates</a>.<br><br>\r\nBy checking the box to \"Get Updates\","
+    "string5": "<a href=\"/en_au/legal/red-updates\">Learn more about red Updates</a>.<br><br>\r\nBy checking the box to \"Get Updates\",",
+    "string6": "<p> By checking the box to \"Get Updates\" </p>"
 }
