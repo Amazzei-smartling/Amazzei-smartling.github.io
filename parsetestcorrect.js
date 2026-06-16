@@ -38,20 +38,20 @@ function Af({ item: e, onNavigate: n }) {
         children: e.intro,
       }),
       e.templateName &&
-        Y.jsxs("p", {
-          className: "template-link",
-          "data-sl-variant": "69f9faa8b37f78d9a3c41020dc15238c",
-          children: [
-            Y.jsx(Vf, {
-              children: $f("sl-69f9faa8b37f78d9a3c41020dc15238c"),
-            }),
-            " ",
-            Y.jsx("a", {
-              href: e.templatePath,
-              children: e.templateName,
-            }),
-          ],
-        }),
+      Y.jsxs("p", {
+        className: "template-link",
+        "data-sl-variant": "69f9faa8b37f78d9a3c41020dc15238c",
+        children: [
+          Y.jsx(Vf, {
+            children: $f("sl-69f9faa8b37f78d9a3c41020dc15238c"),
+          }),
+          " ",
+          Y.jsx("a", {
+            href: e.templatePath,
+            children: e.templateName,
+          }),
+        ],
+      }),
     ],
   });
 }
@@ -89,3 +89,5 @@ function Wf(e) {
   }[e];
   /* </sl:translate_json> */
 }
+
+function stringVariants(e) {/* <sl:translate_json> */return { "sl_translate": "sl_all", "sl_variant": "sl-cd58ecf73e998d90133e51fa197019ca:cd58ecf73e998d90133e51fa197019ca", "sl-cd58ecf73e998d90133e51fa197019ca": "Get started" }[e];/* </sl:translate_json> */ }
