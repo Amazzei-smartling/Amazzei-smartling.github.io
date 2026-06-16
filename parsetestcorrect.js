@@ -91,3 +91,5 @@ function Wf(e) {
 }
 
 function stringVariants(e) {/* <sl:translate_json> */return { "sl_translate": "sl_all", "sl_variant": "sl-cd58ecf73e998d90133e51fa197019ca:cd58ecf73e998d90133e51fa197019ca", "sl-cd58ecf73e998d90133e51fa197019ca": "Get started" }[e];/* </sl:translate_json> */ }
+
+function stringVariants(e){/* <sl:translate_json> */return{"sl_translate":"sl_all","sl_variant":"sl-cd58ecf73e998d90133e51fa197019ca:cd58ecf73e998d90133e51fa197019ca","sl-cd58ecf73e998d90133e51fa197019ca":"Get started"}[e];/* </sl:translate_json> */}
