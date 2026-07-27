@@ -1,3 +1,9 @@
+function a(){
+  console.log(`test`)
+  /*<sl:translate><first-string/>*/ console.log(`another test`)
+
+}
+
 function $f(e) {
   /* <sl:translate_json> */
   return {
