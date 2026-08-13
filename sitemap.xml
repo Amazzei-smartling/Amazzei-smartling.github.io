@@ -7,8 +7,8 @@
         xmlns:pagemap="http://www.google.com/schemas/sitemap-pagemap/1.0">
  
   <url>
-    <loc>https://www.example.com/products/widget-123</loc>
-    <lastmod>2026-08-13</lastmod>
+    <loc translate="no">https://www.example.com/products/widget-123</loc>
+    <lastmod translate="no">2026-08-13</lastmod>
  
     <pagemap:PageMap>
       <pagemap:DataObject type="node">
