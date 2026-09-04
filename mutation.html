@@ -1,0 +1,23 @@
+<p id="text"> Text to mutate </p>
+<button id="btn" onclick="myclick()">Mutate</button>
+<script>
+    // IMPORTANT: NEED TO WRAP OBSERVER IN A DOMCONTENTLOADED EVENT
+    console.log("script")
+    const text = document.getElementById('text')
+    function myclick(){
+        console.log("fired")
+        text.innerHTML = "Mutated"
+    }
+
+    //Configure observer,
+    //Microtasks are run sequentially so using a variable flag that was changed within the observer doesn't work.
+    //Temporarily disconnecting the observer and then restarting it
+    let observerIgnore = false; 
+    const observer = new MutationObserver((mutations) => {
+        observer.disconnect();
+        text.innerHTML = "Observer changed it back"
+        observer.observe(text, { childList: true });        
+    });
+
+    observer.observe(text, {childList: true})
+</script>
