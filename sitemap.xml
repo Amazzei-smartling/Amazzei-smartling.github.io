@@ -1,47 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Sample sitemap using Google's PageMap extension to attach structured
-  metadata to each URL entry.
--->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:pagemap="http://www.google.com/schemas/sitemap-pagemap/1.0">
- 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.example.com/products/widget-123</loc>
-    <lastmod>2026-08-13</lastmod>
- 
-    <pagemap:PageMap>
-      <pagemap:DataObject type="node">
-        <pagemap:Attribute name="id">widget-123</pagemap:Attribute>
-        <pagemap:Attribute name="name">Widget 123</pagemap:Attribute>
-        <pagemap:Attribute name="category">Hardware</pagemap:Attribute>
-        <pagemap:Attribute name="price">29.99</pagemap:Attribute>
-        <pagemap:Attribute name="currency">USD</pagemap:Attribute>
-        <pagemap:Attribute name="inStock">true</pagemap:Attribute>
-      </pagemap:DataObject>
- 
-      <pagemap:DataObject type="node">
-        <pagemap:Attribute name="id">manufacturer-456</pagemap:Attribute>
-        <pagemap:Attribute name="name">Acme Corp</pagemap:Attribute>
-        <pagemap:Attribute name="country">USA</pagemap:Attribute>
-      </pagemap:DataObject>
-    </pagemap:PageMap>
+    <loc>https://amazzei-smartling.github.io/</loc>
+    <lastmod>2026-10-13</lastmod>
   </url>
- 
   <url>
-    <loc>https://www.example.com/products/widget-124</loc>
-    <lastmod>2026-08-13</lastmod>
- 
-    <pagemap:PageMap>
-      <pagemap:DataObject type="node">
-        <pagemap:Attribute name="id">widget-124</pagemap:Attribute>
-        <pagemap:Attribute name="name">Widget 124</pagemap:Attribute>
-        <pagemap:Attribute name="category">Hardware</pagemap:Attribute>
-        <pagemap:Attribute name="price">34.99</pagemap:Attribute>
-        <pagemap:Attribute name="currency">USD</pagemap:Attribute>
-        <pagemap:Attribute name="inStock">false</pagemap:Attribute>
-      </pagemap:DataObject>
-    </pagemap:PageMap>
+    <loc>https://amazzei-smartling.github.io/colorful.html</loc>
+    <lastmod>2026-10-13</lastmod>
   </url>
- 
+  <url>
+    <loc>https://amazzei-smartling.github.io/dcs.html</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://amazzei-smartling.github.io/glossary.html</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://amazzei-smartling.github.io/mutation.html</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
 </urlset>
